@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&display=swap');
+
+/* tag specifications */
+
+body {
+  background-color: #4A7856;
+  font-family: "Barlow Condensed";
+  color: rgb(30, 30, 30);
+  line-height: 1.5;
+}
+
+h1,
+h2 {
+  font-family: "Montserrat Alternates";
+  color: #9b7c79bc;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+i {
+  font-size: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: #a84a60bc;
+}
+
+/* class specifications */
+
+.pink-button {
+  background-color: #a84a60bc;
+  color: rgb(255, 255, 255);
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.pink-button:hover {
+  background-color: #9b7c79bc;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.card {
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  margin: 32px;
+  padding: 24px;
+  border-radius: 8px;
+  box-shadow: 0 10px 30px rgba(9, 91, 31, .1);
+}
+
+
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline>li {
+  display: inline-block;
+  padding-inline: 8px;
+}
+
+.list-inline>li>a>i:hover {
+  color: #9b7c79bc;
+}
+
+
+/* id specifications */
+
+#img-circle {
+  border-radius: 50%;
+}
+
+/* media queries */
+
+@media (max-width: 960px) {
+
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 800px;
+  }
+}
+
+@media (max-width: 720px) {
+
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
